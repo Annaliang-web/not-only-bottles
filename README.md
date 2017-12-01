@@ -8,5 +8,5 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 ## sub title
 
-![Demo Screenshot]
+![demo-Screenshot]
 (https://raw.githubusercontent.com/Annaliang-web/not-only-bottles/master/demo-screenshot.png)
