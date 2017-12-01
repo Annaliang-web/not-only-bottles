@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  /* background-color: #3066BE; */
+  background-color: #8BE8B9;
+  color: #000;
+}
+
+div.container{
+  margin: 0;
+  width: 100%;
+}
+/* ------------ ROW 1 ------------- */
+input{
+  font-size: 1.2em;
+  margin-top:0.5%; 
+}
+span{  /* buttons */
+  margin-right: -23%;
+  float: right;
+}
+ul.nav li{
+  font-size: 1.2em;
+}
+
+div.row1 button{
+ font-size: 1em;
+ color: #000;
+ background-color: #f8a115;
+ border-color: #8BE8B9;
+ margin-top: 1%;
+}
+div.row button:hover, div.row button:visited, div.row button:active{
+  background-color: #3066BE;
+}
+
+
+/* ------------ ROW 2 ------------- */
+div.scroll{
+  background-color: rgb(78, 133, 211);
+  /* background-color: #119DA4; */
+  overflow: scroll;
+  width: 330px;
+  height: 730px;
+}
+table{
+  margin:2% 0;  
+  color: #000;
+  text-align: left;
+  /* border-collapse: collapse; */
+}
+.noBorder tr td{
+  border-top: none !important;
+}
+
+tr.image{
+  text-align: center;
+}
+tr.locationName:hover{
+  background-color:rgb(250, 244, 244)
+}
+tr.locationName td{
+  font-size: 1.1em;
+  text-align: center;
+}
+td.address, td.phone{
+  font-size:0.9em;
+  text-align: left;
+}
+td.num{
+  text-align: left;
+}
+tr td a{
+  color: #f8a115;
+}
+/* tr td a:hover, tr td a:active, tr td a:visited{
+  color: #000;
+} */
+table tr.bottomRow{
+  border-bottom: solid 2px #f8a115;
+}
+div.map{
+  float: left;
+  overflow: hidden;
+  /* position: relative; */
+}
+
+div.infoWindow{
+  /* background-color: rgba(255,0,0,0.4); */
+background-color: rgb(191, 248, 218);
+  /* margin-left:0.5%;
+  margin-right: 0.5%; */
+}
+.infoWindow ul li{
+  list-style: none;
+  text-align: left;
+  font-weight: bold;
+  font-size:1.1em;
+}
+li.itemsWindow{
+  color: #a56a0c;
+}
+
+table.detail{  /* detail page */
+  margin-left:30%;
+}
+
+/* ----------------- About and Contact ------------- */
+
+div.aboutContent{
+  width: 100%;
+  height: 600px;
+  color: #fff;
+  background-color: #3066BE;
+}
+
+.aboutContent table tr{
+  text-align: left;
+  color: #fff;
+  font-size:1.1em;
+}
+.aboutContent table tr td{
+  padding: 3%;
+}
+.aboutContent  a{
+  color: #fff;
+  margin: 2%;
+}
+.aboutContent a:hover{ /*website*/
+  background-color: #f8a115;
+  text-decoration: none;
+}
+
+div.about{ /* about page */
+ padding-top: 5%;
+}
+div.about p{
+  font-size: 1.1em;
+  margin-left: 2.5%;
+  margin-top: 1%;
+}
+td.items{ /* accepted items */
+  padding:4%;
+  color: #f8a115;
+}
+
+div.contactStyle ul{
+  
+  padding-left:40%;
+}
+
+div.contactStyle ul li{
+  list-style: none;
+  padding: 1%;
+  text-align: left;
+}
