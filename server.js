@@ -14,6 +14,9 @@
 //npm install axios --save
 //npm install cheerio --save
 // import { request } from 'https';?????? where is this from?
+//nodemon server.js 8081
+//npm start 
+
 const mongoose = require('mongoose'),
       Schema = mongoose.Schema,
       express = require('express'),
